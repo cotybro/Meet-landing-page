@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: "Red Hat Display", serif;
+	font-size: 1rem;
+	font-color: #87879D;
+	line-height: 1.44rem;
+	background: #fafafa;
+	margin: 0;
+}
+
+/*==================Typeograpy======================*/
+
+h1 {
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+}
+
+h2 {
+	font-size: 2.2rem;
+	line-height: 2.4rem;
+}
+
+h1,
+h2 {
+	color: #28283D;
+}
+
+h3 {
+	color: #4D96A9;
+	font-size: .88rem;
+	line-height: 1.44rem;
+	letter-spacing: .22rem;
+	text-transform: uppercase;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+main img {
+	border-radius: 1rem;
+}
+
+.flex {
+	display: flex;
+}
+
+.btn-flex {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	display:inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 1em 2em;
+	background: #4D96A9;
+	color: white;
+	border-radius: 2rem;
+}
+
+.btn-purple{
+	background: #855FB1;
+}
+
+.btn:hover,
+.btn:focus {
+	background: #71C0D4;
+}
+
+.btn-purple:hover,
+.btn-purple:focus {
+	background: #D9B8FF;
+	cursor: pointer;
+}
+
+.btn-text-accent {
+	color: #8FE3F9;
+}
+
+.btn-footer {
+	display:inline-block;
+	padding: 1em 2em;
+	border-radius: 2rem;
+}
+
+/*==================Header======================*/
+
+header {
+	margin: 3rem 0;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+/*==================Layout======================*/
+
+.hero{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 7rem;
+	overflow: hidden;
+}
+
+.hero-img-left,
+.hero-img-right{
+	position: relative;
+}
+
+.hero-img-left {
+	right: 1.5rem;
+}
+
+.hero-img-right {
+	left: 1.5rem;
+}
+
+.col-start {
+	align-self: flex-start;
+}
+
+.col-middle {
+	align-self: center;
+	margin: 0 1rem;
+}
+
+.col-middle .btn {
+	margin-right: 1.5rem;
+}
+
+.col-end {
+	align-self: flex-end;
+}
+
+.vertical-line-1,
+.vertical-line-2{
+	border-left: 1px solid #87879D;
+	display: block;
+	height: 84px;
+	margin: 0 auto;
+	width: 1px;
+}
+
+.vertical-line-2{
+	position: relative;
+	top: 5rem;
+}
+
+.step1,
+.step2{
+	color: #87879D;
+	font-size: 0.88rem;
+	border: 1px solid #87879D;
+	border-radius: 50%;
+	width: 3.11rem;
+	height: 3.11rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 3.5rem;
+}
+
+.step2 {
+	position: relative;
+	top: 5rem;
+	background: #FAFAFA;
+}
+
+.array {
+	display: flex;
+	flex: 25%;
+	width: 85%;
+	max-width: 1900px;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+}
+
+.array-img {
+	margin: 0 1rem;
+}
+
+.article-body {
+	text-align: center;
+	width: 40%;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.article-body h2 {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+}
+
+.article-body p {
+	margin-bottom: -1.5rem;
+}
+
+footer {
+	height: 17.11rem;
+	background: url("../assets/desktop/image-footer.jpg");
+	background-blend-mode: multiply;
+	background-color: #4D96A9;
+	background-size: cover;
+	background-position: top;
+	color: #FAFAFA;
+	width: 100%;
+}
+
+footer .col {
+	align-self: center;
+	align-content: center;
+	margin: 0 auto;
+	margin-left: 7rem;
+}
+
+.col-1 {
+	width: 25%;
+}
+
+.col-2 {
+	width: 24%;
+}
+
+footer h2 {
+	color: #FAFAFA;
+}
+
+@media (max-width: 1024px) {
+	
+	.hero {
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+		margin-bottom: 3rem;
+	}
+		
+	.col-middle {
+		flex-basis: 100%;
+		align-self: center;
+	}
+	
+	.col-end {
+		order: -1;
+	}
+	
+	.col-start,
+	.col-end {
+		flex: 0 0 45%;
+	}
+	
+	.col-end {
+		
+	}
+	
+	.array {
+		width: 100%;
+	}
+		
+	.article-body {
+		width: 70%;
+		max-width: 750px;
+	}
+	
+	footer {
+		flex-direction: column;
+		height: 20.83rem;
+	}
+	
+	footer .col {
+		margin: 0 auto;
+		margin-bottom: 1.5rem;
+	}
+	
+	.col-1,
+	.col-2,
+	.col-3{
+		position: relative;
+		top: 1rem;
+		width: 50%;
+		height: 30%;
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.btn-flex {
+		flex-wrap: wrap;
+	}
+	
+	.btn {
+		margin-top: 1rem;
+	}
+	
+	.array {
+		flex-wrap: wrap;
+	}
+	
+	.array-img {
+		flex: 30%;
+		margin-bottom: 1rem;
+	}
+	
+	footer {
+		height: 23.77rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
