@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Visit solution](https://github.com/cotybro/Meet-landing-page/blob/main/index.html)
-- Live Site URL: [Viist live site](https://meet-landing-page-omega.vercel.app/)
+- Live Site URL: [Visit live site](https://meet-landing-page-omega.vercel.app/)
 
 ## My process
 
