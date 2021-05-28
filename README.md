@@ -38,11 +38,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### Continued development
 
 Focus more on learning flexbox and image placement and centering. And remember all of the assets.
+Also start with mobile first.
 
 ## Author
 
