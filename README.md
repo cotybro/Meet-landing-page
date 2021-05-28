@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Meet landing page](https://user-images.githubusercontent.com/36529826/120033228-ef0a7c80-bfc0-11eb-8894-3731f4ae80e2.png)
+![Meet landing page](https://user-images.githubusercontent.com/36529826/120033516-44df2480-bfc1-11eb-9abd-0043347286c6.png)
 
 ### Links
 
