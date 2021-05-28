@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/cotybro/Meet-landing-page/blob/main/index.html)
-- Live Site URL: [Add live site URL here](https://meet-landing-page-omega.vercel.app/)
+- Solution URL: [Visit solution](https://github.com/cotybro/Meet-landing-page/blob/main/index.html)
+- Live Site URL: [Viist live site](https://meet-landing-page-omega.vercel.app/)
 
 ## My process
 
