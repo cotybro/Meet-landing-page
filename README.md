@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Meet landing page](https://user-images.githubusercontent.com/36529826/120032270-8e2e7480-bfbf-11eb-8bdf-a47800ff3299.png)
 
 ### Links
 
